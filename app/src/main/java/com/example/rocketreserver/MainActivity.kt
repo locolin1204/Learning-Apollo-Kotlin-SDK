@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
                         text,
                         Snackbar.LENGTH_LONG
                     ).show()
-                    
                 }
         }
     }
