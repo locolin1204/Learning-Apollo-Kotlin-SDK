@@ -8,7 +8,6 @@ import okhttp3.Response
 
 private var instance: ApolloClient? = null
 
-
 fun apolloClient(context: Context): ApolloClient {
     if (instance != null) {
         return instance!!
